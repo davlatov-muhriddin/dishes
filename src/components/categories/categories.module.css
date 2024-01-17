@@ -1,0 +1,35 @@
+.categories {
+  padding: 0.5rem 0;
+}
+
+.categories ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.categories ul li {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.categories ul li.active {
+  color: #ea7c69;
+  position: relative;
+}
+
+.categories ul li.active::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 0.3rem;
+  border-radius: 0.5rem;
+  background-color: #ea7c69;
+  bottom: -0.81rem;
+}
+
+@media (max-width: 750px) {
+  .categories ul li {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,24 @@
+header {
+  padding: 1rem 0;
+}
+
+.headerInfo h1 {
+  margin-bottom: 0.5rem;
+}
+
+.headerInfo p {
+  font-size: 1.2rem;
+}
+
+header input {
+  width: 350px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  border: 2px solid #ececec;
+  background: url("../../../public/images/search.svg") no-repeat;
+  background-position: 98% center;
+  color: #ececec;
+}
